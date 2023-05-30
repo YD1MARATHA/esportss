@@ -1,0 +1,172 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #7e56cc;
+    color: rgb(247, 239, 239);
+    font-size: 30px;
+  }
+.{
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.game{
+  flex: 33.33%;
+  padding: 5px;
+}
+.games{
+  flex: 33.33%;
+  padding: 5px;
+}
+.career {
+  padding: 60px;
+  text-align: center;
+  background: #7e56cc;
+  color: rgb(247, 239, 239);
+  font-size: 30px;
+}
+.info{
+  padding: 50px;
+  font-size: 70px;
+  color: rgb(8, 2, 2);
+}
+
+
+form {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+select {
+  height: 38px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.pes{
+  float: right;
+  margin-left: 10px; /* optional: add some space between images */
+}
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.video-1 {
+  left: 0;
+  margin-right: 20px;
+}
+
+.video-2 {
+  right: 0;
+  margin-left: 20px;
+}
+.video-3 {
+  display: block;
+  margin: 0 auto;
+}
+.valorant{
+  max-width:100%;
+  height:auto;
+}
+.valobg{
+  background: url(valobg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.valogameplay{
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: auto;
+}
+.bgmibg{
+  background: url(bgmibg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.bgmiclutch{
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: auto;
+}
+.cocbg{
+  background: url(cocbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.cocgameplay{
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: auto;
+}
